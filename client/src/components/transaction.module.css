@@ -1,0 +1,22 @@
+.transaction {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(161, 240, 220);
+}
+.text {
+  display: flex;
+  flex: 7 1 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

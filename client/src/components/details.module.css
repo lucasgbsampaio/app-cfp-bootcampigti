@@ -1,0 +1,10 @@
+.details {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+}
