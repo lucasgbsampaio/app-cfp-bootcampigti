@@ -1,6 +1,6 @@
 import React from 'react';
 
-import css from './details.module.css';
+import css from './styles/details.module.css';
 import { formatMoney } from '../helpers/formatNumbers';
 
 export default function ShowDetails({ transactions }) {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import css from './transaction.module.css';
+import css from './styles/transaction.module.css';
 import { formatMoney } from '../helpers/formatNumbers';
 
 export default function TransactionsList({ transactions }) {

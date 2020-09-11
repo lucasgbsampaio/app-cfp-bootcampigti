@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { allMonthYear } from '../helpers/getMonthYear';
-import css from './period.module.css';
+import css from './styles/period.module.css';
 
 export default function PeriodList({ period, onChangePeriod }) {
   const handlePeriod = (event) => {
