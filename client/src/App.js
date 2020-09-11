@@ -37,7 +37,9 @@ export default function App() {
 
     const transactionsToDisplay =
       textFilter.length > 0 ? filteredTransactions : transactions;
-    setFilteredTransactions(transactionsToDisplay);
+    setFilteredTransactions(
+      transactionsToDisplay.sort((a, b) => a.day - b.day)
+    );
   }, [textFilter, transactions]);
 
   const handlePeriodChange = (newPeriod) => {
@@ -47,7 +49,7 @@ export default function App() {
   const handleTextChange = (newText) => {
     setTextFilter(newText);
   };
-
+  console.log(filteredTransactions);
   return (
     <>
       <div className="container">
