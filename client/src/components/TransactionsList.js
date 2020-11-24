@@ -8,7 +8,11 @@ export default function TransactionsList({ transactions }) {
     <div className="center" style={{ padding: '5px' }}>
       {transactions.map(({ _id, description, category, value, day, type }) => {
         return (
-          <div className={css.transaction} key={_id}>
+          <div
+            style={type === '-' && { backgroundColor: 'rgb(192,57,43)' }}
+            className={css.transaction}
+            key={_id}
+          >
             <span
               style={{
                 marginRight: '20px',
