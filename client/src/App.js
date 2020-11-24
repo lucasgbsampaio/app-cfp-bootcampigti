@@ -49,7 +49,7 @@ export default function App() {
   const handleTextChange = (newText) => {
     setTextFilter(newText);
   };
-  console.log(filteredTransactions);
+
   return (
     <>
       <div className="container">
