@@ -9,7 +9,7 @@ export default function TransactionsList({ transactions }) {
       {transactions.map(({ _id, description, category, value, day, type }) => {
         return (
           <div
-            style={type === '-' && { backgroundColor: 'rgb(192,57,43)' }}
+            style={type === '-' ? { backgroundColor: 'rgb(192,57,43)' } : null}
             className={css.transaction}
             key={_id}
           >
