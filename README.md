@@ -2,10 +2,8 @@
      <a href="https://app-cfp-desafio-final.herokuapp.com" alt="controle-financas"> Controle de Finanças Pessoal </a>
 </h1>
 
-<p align="center"> 
-Projeto sugerido pelo [Bootcamp](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack) Full Stack do [IGTI](https://www.igti.com.br/), 
+Projeto sugerido pelo [Bootcamp](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack) Full Stack do [IGTI](https://www.igti.com.br/),
 que consiste em desenvolver um controle de finanças pessoal.
-</p>
 
 ---
 
