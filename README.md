@@ -2,7 +2,10 @@
      <a href="https://app-cfp-desafio-final.herokuapp.com" alt="controle-financas"> Controle de Finanças Pessoal </a>
 </h1>
 
-Projeto sugerido pelo [Bootcamp](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack) Full Stack do [IGTI](https://www.igti.com.br/), que consiste em desenvolver um controle de finanças pessoal.
+<p align="center"> 
+Projeto sugerido pelo [Bootcamp](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack) Full Stack do [IGTI](https://www.igti.com.br/), 
+que consiste em desenvolver um controle de finanças pessoal.
+</p>
 
 ---
 
@@ -25,7 +28,6 @@ será preciso ter uma conta no [MongoDB](https://www.mongodb.com/) para ter seu 
 ### Rodando a aplicação
 
 ```
-
 # Clone este repositório
 $ git clone https://github.com/lucasfe4nor/app-cfp-bootcampigti.git
 
@@ -53,8 +55,6 @@ $ yarn
 $ yarn start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-
 ```
 
 ---
@@ -73,7 +73,7 @@ $ yarn start
 
 ## Status
 
-- Concluído ✔️✔️✔️
+Concluído ✔️✔️✔️
 
 ---
 
